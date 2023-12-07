@@ -1,0 +1,101 @@
+/* scroll css */
+
+article:not(#sectionPin) {
+  	min-height: 100vh;
+  	width: 100%;
+  	position: relative;
+  	display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  	grid-gap: 2rem;
+  	padding: 50px 10vw;
+  	margin: auto;
+  	place-items: center;
+}
+
+.pin-wrap img {
+  	height: 80vh;
+  	width: auto;
+  	object-fit: cover;
+}
+
+#sectionPin {
+  	height: 100vh;
+  	overflow: hidden;
+  	display: flex;
+  	left: 0;
+  	background: var(--text-color);
+  	color: var(--bg-color);
+}
+
+#sectionPin{
+	height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.pin-wrap {
+  	height: 100vh;
+  	display: flex;
+  	justify-content: flex-start;
+  	align-items: center;
+  	padding: 50px 25vw;
+}
+
+.m-pin-wrap{
+	display: none;
+}
+
+.pin-wrap > * {
+  	min-width: 60vw;
+  	padding: 0 5vw;
+}
+
+
+
+/* rolling css */  
+
+.wrap {
+    display: flex; 
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	margin-top: 230px;
+	overflow-x: hidden;
+}
+
+.wrap .rolling-list ul {
+    padding : 0px;
+    display: flex;
+}
+
+.wrap .rolling-list ul li { 
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: center; 
+    flex-shrink: 0; 
+}
+
+.wrap .rolling-list ul li .image-wrap{ 
+	margin-right: 280rem;
+	border: none;
+}
+
+.rolling-list.original {
+    animation: rollingleft1 50s linear infinite;
+}
+
+.rolling-list.clone {
+    animation: rollingleft2 50s linear infinite;
+}
+
+@keyframes rollingleft1 {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-100%); }
+    50.01% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes rollingleft2 {
+    0% { transition: translateX(0); }
+    100% { transform: translateX(-200%); }
+}

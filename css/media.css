@@ -1,0 +1,268 @@
+@media (max-width: 1400px) {
+    .inner{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #sectionPin video{        
+        left: -400px !important;
+        height: 100vh;
+    }
+
+    .m-pin-wrap{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 80px;
+        line-height: 90px;
+        margin-top: 250px;
+    }
+
+    .inner{
+        padding: 0 20px;
+    }
+
+    .pin-wrap{
+        display: none;
+    }
+
+    .wrap{
+        overflow-x: hidden;
+    }
+
+    #m-size{
+        height: 200px;
+    }
+
+    .m-wrap{
+        overflow: hidden;
+        padding-top: 120px;
+    }
+
+    .title h2 {
+        font-size: 50px;
+    }
+
+    .possible {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .possible li .text h2 {
+        font-size: 35px;
+    }
+
+    .possible li .text .stack {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .main_careers {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 100px;
+    }
+
+    .main_pladforms {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .navigation__link {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .ent50{
+        display: none;
+    }
+
+    .slick-dots li{
+        width: 14px;
+        height: 14px;
+    }
+
+    .flex_text{
+        margin-top: 120px;
+    }
+
+    .flex_text h2{
+        padding-left: 0;
+    }
+
+    .flex_text .flex_stack{
+        padding-left: 20px;
+        gap: 10px;
+    }
+
+    .flex_text h2{
+        font-size: 30px;
+    }
+
+    .flex_text .flex_p ul li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    #sectionPin video{        
+        left: -490px !important;
+        height: 100vh;
+    }
+
+    .m-pin-wrap{
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        line-height: 70px;
+        margin-top: 250px;
+    }
+
+    .inner{
+        padding: 0 20px;
+    }
+
+    .pin-wrap{
+        display: none;
+    }
+
+    .wrap{
+        overflow-x: hidden;
+    }
+
+    #m-size{
+        height: 200px;
+    }
+
+    .m-wrap{
+        overflow: hidden;
+        padding-top: 80px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .title .kofont {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .possible{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .possible li .text h2 {
+        font-size: 30px;
+    }
+
+    .possible li .text .stack {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stack-wrap p{
+        font-size: 14px;
+    }
+
+    .main_careers {
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+    
+    .main_careers p {
+        margin-top: 20px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .main_pladforms {
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .main_pladforms .box h2 {
+        font-size: 16px;
+    }
+
+    .navigation__link {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .ent50{
+        display: none;
+    }
+
+    /*     projct page */
+
+    .service_headline_sub{
+        padding: 50px 0;
+    }
+
+    .sub_title h2 {
+        font-size: 50px;
+        padding: 0 20px;
+    }
+
+    .service_topsub {
+        font-size: 50px;
+        padding: 0 20px;
+    }
+
+    .service_headline_sub p {
+        padding: 0;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .slider div div{
+        padding: 2px;
+    }
+
+    .slick-dots li{
+        width: 10px;
+        height: 10px;
+    }
+
+    .flex_text{
+        gap: 5px;
+        margin-top: 80px;
+    }
+
+    .flex_text h2{
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .flex_text .flex_p ul li{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .flex_text .flex_stack{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-left: 10px;
+    }
+    .flex_text .flex_p ul{
+        padding-left: 20px;
+    }
+
+    .home-btn{padding-top: 80px;}
+    .home-btn .btn{font-size: 14px; min-width: 180px;}
+}
+
+
